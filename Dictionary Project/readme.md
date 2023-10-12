@@ -10,6 +10,6 @@ This Dictionary Application is a web-based tool that allows users to search for 
 - **Responsive Design**: The application is responsive and can be used on various devices.
 
 ## Demo
-For a live demo of the Dictionary Application, you can visit [https://nishant-sah-my-dictionary-app.netlify.app/](#).
+For a live demo of the Dictionary Application, you can visit [Link](https://nishant-sah-my-dictionary-app.netlify.app/).
 
 
