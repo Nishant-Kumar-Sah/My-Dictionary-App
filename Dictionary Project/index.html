@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Dictionary App</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+        <script type="module" src="app.js" ></script>
+</head>
+<body>
+        <div class="wrapper">
+                
+                        <h1>My Dictionary </h1>
+                        <div class="input-box">
+                                <input class="word-given-by-user" type="text" placeholder="Search Word..." required autofocus>
+                                <i class="fa-solid fa-magnifying-glass" ></i>
+                        </div>
+                        <p class="info-text"></p>
+                        <ul id="items-with-common-prefix"></ul>
+                        <ul class="word-meaning">
+                                <li class="word">
+                                        <div class="details">
+                                                <p></p>
+                                                <span></span>
+                                        </div>
+                                        <i class="fas fa-volume-up"></i>
+                                </li>
+                                
+                                <div class="content">
+                                        <li class="meaning">
+                                                <div class="details">
+                                                        <p>Meaning</p>
+                                                        <span></span>
+                                                </div>
+                                        </li>
+                                        <li class="example">
+                                                <div class="details">
+                                                        <p>Example</p>
+                                                        <span></span>
+                                                </div>
+                                        </li>
+                                        <li class="synonyms">
+                                                <div class="details">
+                                                        <p>Synonyms</p>
+                                                        <div class="list"></div>
+                                                </div>
+                                        </li>
+                                </div>
+                                
+                                
+                        </ul>
+                        
+                        
+                
+        </div>
+
+       
+        
+</body>
+
+</html>
